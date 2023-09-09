@@ -1,0 +1,26 @@
+[id^=math\.] {
+  color: #363635;
+  display: inline-block;
+  border: 1px solid #363635;
+  box-shadow: 2px 2px 2px black;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+[id^=math\.] {
+  color: #363635;
+  display: inline-block;
+  border: 1px solid #363635;
+  box-shadow: 2px 2px 2px black;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+[id^=math\.]:hover {
+  color: #fff;
+  background-color: #864B76;
+}
+
+#content {
+  margin: 0.7em 1em !important;
+}
