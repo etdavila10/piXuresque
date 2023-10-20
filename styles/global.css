@@ -24,3 +24,7 @@
 #content {
   margin: 0.7em 1em !important;
 }
+
+#cu-identity {
+  display: none;
+}
