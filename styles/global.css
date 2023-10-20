@@ -26,5 +26,5 @@
 }
 
 #cu-identity {
-  display: none;
+  display: none !important;
 }
