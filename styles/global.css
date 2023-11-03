@@ -30,7 +30,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #labstabs {
@@ -38,5 +38,25 @@ body {
 }
 
 .metatable tbody > tr:nth-child(odd) {
+  display: none !important;
+}
+
+.endorsers{
+  display: none !important;
+}
+
+#abs-outer .extra-services .full-text ul li:nth-child(3) {
+  display: none !important;
+}
+
+#abs-outer .extra-services .full-text ul li:nth-child(4) {
+  display: none !important;
+}
+
+#abs-outer .extra-services .full-text .abs-license {
+  display: none !important;
+}
+
+#abs-outer .extra-services .bookmarks{
   display: none !important;
 }
