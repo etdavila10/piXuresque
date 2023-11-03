@@ -60,3 +60,18 @@ body {
 #abs-outer .extra-services .bookmarks{
   display: none !important;
 }
+#abs-outer > .leftcolumn > .subheader {
+  position: absolute;
+  width: 10em;
+  height: 100vw;
+  z-index: 10;
+}
+
+#content-inner {
+  padding-left: 10em;
+}
+
+#content-inner + div {
+  padding-left: 10em;
+}
+
