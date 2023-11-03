@@ -60,3 +60,7 @@ body {
 #abs-outer .extra-services .bookmarks{
   display: none !important;
 }
+
+footer {
+  display: none !important;
+}
