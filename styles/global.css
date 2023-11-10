@@ -19,6 +19,11 @@ a, a:hover {
   color: var(--light-brown) !important;
 }
 
+.is-cul-darker {
+  background: var(--light-brown) !important;
+  color: var(--dark-brown) !important;
+}
+
 
 [id^=math\.] {
   color: #363635;
