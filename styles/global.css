@@ -1,3 +1,25 @@
+:root {
+  --dark-brown: #3D3531;
+  --light-brown: #AD9F8C;
+  --background: #191717;
+  --text: #F1EDE4;
+}
+
+body {
+  background: var(--background) !important;
+  color: var(--text) !important;
+}
+
+#header, .mobile-header {
+  background: var(--dark-brown) !important;
+  color: var(--light-brown) !important;
+}
+
+a, a:hover {
+  color: var(--light-brown) !important;
+}
+
+
 [id^=math\.] {
   color: #363635;
   display: inline-block;
@@ -57,22 +79,45 @@ body {
   display: none !important;
 }
 
+#bib-cite-trigger, #bib-cite-trigger:hover {
+  color: var(--light-brown) !important;
+}
+
 #abs-outer .extra-services .bookmarks{
   display: none !important;
 }
+
 #abs-outer > .leftcolumn > .subheader {
   position: absolute;
   width: 10em;
-  height: 100vw;
+  height: 100vh;
   z-index: 10;
 }
 
-#content-inner {
-  padding-left: 10em;
+#content-inner, #content-inner + div {
+  padding: 0 5em 0 15em;
+  font-size: 1em !important;
 }
 
-#content-inner + div {
-  padding-left: 10em;
+#content-inner blockquote {
+  margin: 0.5em 20px 0.5em 20px !important;
+  /* margin-block-start: 0.67em !important; */
+  /* margin-block-end: 0.67em !important; */
+  /* margin-inline-start: 0 !important; */
+  /* margin-inline-end: 0 !important; */
+}
+
+#content-inner h1.title {
+  font-size: 2em !important;
+  margin-bottom: 0em !important;
+}
+
+#content-inner div.authors a {
+  font-size: 1.5em !important;
+}
+
+#content-inner div.authors {
+  margin-bottom: 2em !important;
 }
 
 footer {
