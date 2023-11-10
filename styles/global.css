@@ -22,6 +22,28 @@ a, a:hover {
 .is-cul-darker {
   background: var(--light-brown) !important;
   color: var(--dark-brown) !important;
+  /* border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important; */
+}
+
+#header .search-block {
+  justify-content: center !important;
+  padding: 15px 12px 0 0 !important;
+}
+#header p {
+  text-align: left !important;
+}
+
+select {
+  background: var(--text) !important;
+  color: var(--dark-brown) !important;
+  border: 0px !important;
+}
+
+input[name = "query"] {
+  background: var(--text) !important;
+  color: var(--dark-brown) !important;
+  width: 50em !important;
 }
 
 
