@@ -87,15 +87,8 @@ body {
   display: none !important;
 }
 
-#abs-outer > .leftcolumn > .subheader {
-  position: absolute;
-  width: 10em;
-  height: 100vh;
-  z-index: 10;
-}
-
 #content-inner, #content-inner + div {
-  padding: 0 5em 0 15em;
+  padding: 0 5em 0 5em;
   font-size: 1em !important;
 }
 
