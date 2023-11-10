@@ -87,6 +87,10 @@ body {
   display: none !important;
 }
 
+#abs-outer > .leftcolumn > .subheader {
+  display: none !important;
+}
+
 #content-inner, #content-inner + div {
   padding: 0 5em 0 5em;
   font-size: 1em !important;
