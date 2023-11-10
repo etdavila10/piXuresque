@@ -70,6 +70,10 @@ input[name = "query"] {
   background-color: #864B76;
 }
 
+.dateline {
+  margin-top: 25px !important;
+}
+
 #content {
   margin: 0.7em 1em !important;
 }
@@ -94,6 +98,10 @@ body {
   display: none !important;
 }
 
+#abs-outer .extra-services .full-text ul li:nth-child(2){
+  font-size: 1.5em !important;
+}
+
 #abs-outer .extra-services .full-text ul li:nth-child(3) {
   display: none !important;
 }
@@ -114,6 +122,14 @@ body {
   display: none !important;
 }
 
+.browse {
+  display: none !important;
+}
+.full-text ul, .extra-ref-cite ul{
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
 #abs-outer > .leftcolumn > .subheader {
   display: none !important;
 }
@@ -131,6 +147,8 @@ body {
   /* margin-inline-end: 0 !important; */
 }
 
+
+
 #content-inner h1.title {
   font-size: 2em !important;
   margin-bottom: 0em !important;
@@ -147,4 +165,5 @@ body {
 footer {
   display: none !important;
 }
+
 
